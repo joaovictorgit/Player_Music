@@ -10,7 +10,7 @@ const AboutAlbum: React.FC = () => {
 
   return (
       <Container>
-          <Title>{currentAudioInfo?.title || "Selecio um áudio"}</Title>
+          <Title>{currentAudioInfo?.title || "Selecione um áudio"}</Title>
           <Album source={{
             uri: currentAudioInfo?.imageSource || teste
           }}></Album>
